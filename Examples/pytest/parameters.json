@@ -1,0 +1,71 @@
+{
+    "spoiler positions": {
+        "ZERO_POS": 160,
+        "ECO_POS": 1360,
+        "PERFO_POS": 2120,
+        "Tolerance": 50
+    },
+    "Drivemodes": {
+        "DM_normal": 2,
+        "DM_sport": 3,
+        "DM_sportplus": 6,
+        "DM_offroad": 4
+    },
+    "Launchcontrol values": {
+        "launch_init": 0,
+        "launch_prep": 1,
+        "launch_active": 2
+    },
+    "Speed thresholds": {
+        "normal": {
+            "Vthresh_normal_min_move": 33,
+            "Vthresh_normal_0toECO": 54,
+            "Vthresh_normal_ECOto0": 34,
+            "Vthresh_normal_ECOtoPERFO": 150,
+            "Vthresh_normal_PERFOtoECO": 130
+        },
+        "sport": {
+            "Vthresh_sport_min_move": 33,
+            "Vthresh_sport_0toECO": 54,
+            "Vthresh_sport_ECOto0": 34,
+            "Vthresh_sport_ECOtoPERFO": 150,
+            "Vthresh_sport_PERFOtoECO": 130
+        },
+        "offroad": {
+            "Vthresh_offroad_min_move": 33,
+            "Vthresh_offroad_0toECO": 54,
+            "Vthresh_offroad_ECOto0": 34,
+            "Vthresh_offroad_ECOtoPERFO": 150,
+            "Vthresh_offroad_PERFOtoECO": 130
+        },
+        "sportplus": {
+            "Vthresh_sPlus_min_move": 33,
+            "Vthresh_sPlus_0toECO": 54,
+            "Vthresh_sPlus_ECOto0": 34,
+            "Vthresh_sPlus_ECOtoPERFO": 90,
+            "Vthresh_sPlus_PERFOtoECO": 70
+        }
+    },
+    "Signals": {
+        "Aero active setup": {
+            "message": "Aero_04_XIX_VLAN_Komfort",
+            "signal": "Aero_AktivesSetup_XIX_Aero_04_XIX_VLAN_Komfort"
+        },
+        "Spoiler actual position": {
+            "message": "SP_01s_01",
+            "signal": "SA1_Ist_Pos"
+        },
+        "actual speed": {
+            "message": "VDSO_01_XIX_VLAN_Komfort",
+            "signal": "VDSO_Vx6d_XIX_VDSO_01_XIX_VLAN_Komfort"
+        },
+        "launch control": {
+            "message": "HCP1_09_XIX_VLAN_Komfort",
+            "signal": "LnchCtl_StReq_XIX_HCP1_09_XIX_VLAN_Komfort"
+        },
+        "Drivemode": {
+            "message": "Charisma_20_XIX_VLAN_Komfort",
+            "signal": "CHA_ReqPrgHsp_XIX_Charisma_20_XIX_VLAN_Komfort"
+        }
+    }
+}

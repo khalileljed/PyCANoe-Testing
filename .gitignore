@@ -1,0 +1,5 @@
+myenv/
+.report.json
+log.json
+/Testreports/
+__pycache__
